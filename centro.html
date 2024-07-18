@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnerGhram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        .contenido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .seccion {
+            width: 100%;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .seccion h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .texto {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            width: calc(100% - 22px);
+            margin-bottom: 10px;
+            resize: none;
+            pointer-events: none; /* Bloquea la edición del texto */
+            overflow-y: auto; /* Habilita la barra de desplazamiento vertical */
+        }
+        .imagenes {
+            display: flex;
+            justify-content: center; /* Centra horizontalmente las imágenes */
+            flex-wrap: wrap; /* Permite que las imágenes se envuelvan si no caben en una línea */
+            margin-top: 10px;
+        }
+        .imagen {
+            display: flex;
+            align-items: center;
+            margin: 10px; /* Espacio entre imágenes */
+        }
+        .imagen img {
+            width: 200px; /* Ajusta el tamaño de las imágenes aquí */
+            height: 200px; /* Ajusta el tamaño de las imágenes aquí */
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .imagen-rectangular img {
+            width: 300px; /* Ajusta el tamaño de las imágenes rectangulares aquí */
+            height: auto; /* Mantiene la proporción de la imagen */
+            border-radius: 0; /* Elimina el borde redondeado */
+            margin-right: 10px;
+        }
+        .cambiar-color {
+            display: inline-block;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EnerGhram</h1>
+    </header>
+    <div class="contenido">
+        <div class="seccion">
+            <h2>¿Cuál es el problema identificado?</h2>
+            <textarea class="texto" rows="5">La falta de energia electrica renovable en la comuniadad de Huaycán, una situacion lamentable y desafortuna para muchos ciudadanos, esta situacion da muchas consecuencias graves como una educacion inadecuada, desigualdad, aislamiento social y otros. Por otro lago la falta de ejercicio fisico, lo cual con este proyecto se estaria empleando como problema secundario, y junto a ejercer la actividad fisica a la recreacion y mantenerte ocupado en los tiempos libres en algo productivo.</textarea>
+            <div class="imagenes">
+                <div class="imagen">
+                    <a href="https://www.gob.pe/institucion/minsa/noticias/38632-la-mitad-de-peruanos-no-realiza-actividad-fisica-y-corre-riesgo-de-padecer-enfermedades-mortales" target="_blank"><img src="PROBLEMA.1.webp" alt="Imagen1"></a>
+                </div>
+                <div class="imagen">
+                    <a href="https://revistaenergia.pe/casi-2-millones-de-peruanos-no-tienen-luz-electrica/" target="_blank"><img src="PROBLEMA.11.jpg" alt="Imagen 2"></a>
+                </div>
+            </div>
+        </div>
+        <div class="seccion">
+            <h2>¿En qué consiste el proyecto?</h2>
+            <textarea class="texto" rows="5">Consite en un mecanismo confotmado por pedales conectados a un mot, una bateria y un inversornpara asi conectarlo a un dispositivo de almacenamiento de energia, todo inicia gracias al movimiento de los pedales que hace girar una ruedita y la mantiene en constante movimiento, a lo que el motor capta el movimiento y la covierte en energia con ayuda de la bateria, liego el inversor la ordena y regula para que sea utilizable y no haya un corto circuito debido a la mala regulación de energia.</textarea>
+            <div class="imagenes">
+                <div class="imagen">
+                    <a href="https://casolli.com/BLOG/bici-generador-de-electricidad/" target="_blank"><img src="CONSISTE,1.webp" alt="Imagen 1"></a>
+                </div>
+                <div class="imagen">
+                    <a href="https://casolli.com/BLOG/bici-generador-de-electricidad/" target="_blank"><img src="CONSISTE,2.jpg" alt="Imagen 2"></a>
+                </div>
+            </div>
+        </div>
+        <div class="seccion">
+            <h2>¿A quién beneficia el proyecto?</h2>
+            <textarea class="texto" rows="5">En general este proyecto va dirigido a la gran mayoria de la población ya te genera eneria electrica y a la vez te proporcina salud fisica, pero principalmente va dirigido a los publicos que carecen de el recurso de la energia electrica, y asi generar energia electrica renovable de una forma eco-amigable. El uso de este mecanismo es muy importante y eficaz para la poblacion, te da energia electrica y proporciona salud física.</textarea>
+            <div class="imagenes">
+                <div class="imagen">
+                    <a href="https://rpp.pe/campanas/publirreportaje/miles-de-hogares-en-zonas-vulnerables-ya-tienen-energia-electrica-gracias-al-proyecto-energia-para-crecer-noticia-1460486" target="_blank"><img src="BENEFICIO.22.webp" alt="Imagen 1"></a>
+                </div>
+                <div class="imagen">
+                    <a href="https://www.bancomundial.org/es/results/2014/09/24/peru-brings-electricity-to-rural-communities    " target="_blank"><img src="BENEFICIOI.11.webp" alt="Imagen 2"></a>
+                </div>
+            </div>
+        </div>
+        <div class="seccion">
+            <h2>Paso a paso del proyecto</h2>
+            <textarea class="texto" rows="5">En la parte superior del soporte va a ver un disco pequeño que va a estar en constante movimiento gracias a los pedales, eso va a estar vinculado a un motor que va a percibir el movimiento y lo va a pasar a la batería que se va a encargar de transformarlo en energía eléctrica. Ahora la batería va a estar conectada al inversor que va a ordenar la energía y regularla para que sea funcional para la batería que la va a acumular.</textarea>
+            <div class="imagenes">
+                <div class="imagen-rectangular">
+                    <a href="https://youtu.be/virTnvHYurE" target="_blank"><img src="PASO,11.jpg" alt="Imagen 1"></a>
+                </div>
+                <div class="imagen-rectangular">
+                    <a href="https://youtu.be/X1d64d6LkCI" target="_blank"><img src="PASO.22.jpg" alt="Imagen 2"></a>
+                </div>
+            </div>
+        </div>
+        <a class="cambiar-color" href="#" onclick="cambiarColorFondo(); return false;">Cambiar Color de Fondo</a>
+    </div>
+
+    <script>
+        function cambiarColorFondo() {
+            var color = getRandomColor();
+            document.body.style.backgroundColor = color;
+        }
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+</html>
